@@ -1,0 +1,1 @@
+const myCar = {}; // one way to create a new object

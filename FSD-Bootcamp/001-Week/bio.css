@@ -1,0 +1,23 @@
+h1, h2, h3 {
+  font-family: "DM Serif Text", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+p, ul, li, label {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+}
+
+img {
+    border-radius: 20px;
+    width: 150px;
+}
+
+p, li {
+    line-height: 160%;
+}
+
+.fa-solid {
+    color: papayawhip;
+}

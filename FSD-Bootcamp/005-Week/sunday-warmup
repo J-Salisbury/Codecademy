@@ -1,0 +1,20 @@
+//write an arrow function assigned to a constant variable that adds two numbers
+const addTwoNumbers = (x, y) => x + y ;
+console.log(addTwoNumbers(3, 5));
+
+//create a simple array of your favorite movies
+const favoriteMovies = ['A League of Their Own', 'Star Wars: The Last Jedi', 'Captain America: Winter Soldier', 'Avengers: Infinity War'];
+
+//create a house object
+
+const house = {
+    color: "brown",
+    bedrooms: 3,
+    baths: 2,
+    hasAC: true,
+    address: {
+        street: "123 Sesame St.",
+        city: "New York",
+        zipcode: "12345"
+    }
+}

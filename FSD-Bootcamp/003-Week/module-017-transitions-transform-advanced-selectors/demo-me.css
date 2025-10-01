@@ -1,0 +1,49 @@
+button {
+    padding: 10px 20px;
+    border: none;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.first-transition {
+    background-color: greenyellow;
+    transition-property: background-color;
+    transition-duration: 2s;
+}
+
+.first-transition:hover {
+    background-color: green;
+}
+
+.second-transition {
+    width: 200px;
+    background-color: fuchsia;
+    color: #FFF;
+    transition-property: width;
+    transition-duration: 1s;
+}
+
+.third-transition {
+    background-color: yellow;
+    width: 300px;
+    transition-property: background-color, width;
+    transition-duration: 1s, 2s;
+    transition-delay: .25s;
+}
+
+.third-transition:hover {
+    background-color: orange;
+    width: 500px;
+}
+
+.second-transition:hover {
+    width: 300px;
+}
+
+.linear-timing {
+    transition-timing-function: linear;
+}
+
+.ease-in-timing {
+    transition-timing-function: ease-in;
+}

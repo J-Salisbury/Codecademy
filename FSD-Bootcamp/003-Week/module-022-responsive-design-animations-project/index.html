@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Jessica Salisbury</title>
+  <script defer src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body class="width-full max-w-screen-xl my-0 mx-auto bg-gray-300">
+  <header class="flex justify-between bg-stone-100">
+    <div class="lg:pl-8">
+      <img src="https://img.logo.dev/logo.dev" alt="logo" class="w-[100px]" />
+    </div>
+    <nav class="self-center mr-[12px] lg:mr-[32px]">
+      <ul class="flex justify-between gap-4">
+        <li class="inline-block"><a href="#"
+            class="font-bold text-emerald-700 hover:text-emerald-900 hover:underline">Home</a></li>
+        <li class="inline-block"><a href="#projects"
+            class="text-emerald-700 hover:text-emerald-900 hover:underline">Projects</a></li>
+        <li class="inline-block"><a href="#about"
+            class="text-emerald-700 hover:text-emerald-900 hover:underline">About</a></li>
+        <li class="inline-block"><a href="#contact"
+            class="text-emerald-700 hover:text-emerald-900 hover:underline">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main class="bg-white">
+    <section id="hero" class="flex flex-wrap lg:flex-nowrap">
+      <div class="p-4 lg:max-w-3/5 lg:pl-16 lg:self-center">
+        <h1 class="font-bold text-6xl mb-4">Jessica Salisbury</h1>
+        <p class="text-lg mb-4">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis semper
+          nulla vitae tellus bibendum posuere. Morbi pulvinar vitae diam ut
+          pulvinar.
+        </p>
+        <div class="flex gap-3">
+          <a href="#projects" class="bg-emerald-700 hover:bg-emerald-800 hover:shadow-md shadow-emerald-900/50 text-white px-6 py-2 rounded-md">
+            Projects
+          </a>
+          <a href="#contacts" class="border-1 border-emerald-700 text-emerald-700 hover:shadow-md shadow-emerald-900/50 px-6 py-2 rounded-md">
+            Contact
+          </a>
+        </div>
+      </div>
+      <div>
+        <img src="https://placehold.co/700x500" alt="Placeholder Image" />
+      </div>
+    </section>
+    <section id="projects" class="bg-stone-200">
+      <div class="flex flex-wrap lg:flex-nowrap gap-8 py-16 lg:px-16">
+        <article class="relative isolate bg-white w-full lg:w-1/3 rounded-lg overflow-hidden lg:shadow-lg shadow-stone-700/50 hover:bg-amber-100">
+          <div><img src="https://placehold.co/500x250" alt="" /></div>
+          <div class="p-4">
+            <p class="font-bold"><a href="#"><span class="absolute inset-0 z-10"></span>Project #1</a></p>
+            <p>Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae pellentesque sem placerat.</p>
+          </div>
+        </article>
+        <article
+          class="relative isolate bg-white w-full lg:w-1/3 rounded-lg overflow-hidden lg:shadow-lg shadow-stone-700/50 hover:bg-amber-100">
+          <div><img src="https://placehold.co/500x250" alt="" /></div>
+          <div class="p-4">
+            <p class="font-bold"><a href="#"><span class="absolute inset-0 z-10"></span>Project #2</a></p>
+            <p>Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae pellentesque sem
+              placerat.</p>
+          </div>
+        </article>
+        <article
+          class="relative isolate bg-white w-full lg:w-1/3 rounded-lg overflow-hidden lg:shadow-lg shadow-stone-700/50 hover:bg-amber-100">
+          <div><img src="https://placehold.co/500x250" alt="" /></div>
+          <div class="p-4">
+            <p class="font-bold"><a href="#"><span class="absolute inset-0 z-10"></span>Project #3</a></p>
+            <p>Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae pellentesque sem
+              placerat.</p>
+          </div>
+        </article>
+      </div>
+    </section>
+    <section id="about" class="flex flex-wrap justify-center lg:flex-nowrap gap-16 p-4 m-4 lg:m-16">
+      <div class="rounded-full overflow-hidden">
+        <img src="https://placehold.co/300x300" alt="Placeholder Image" />
+      </div>
+      <div>
+        <div class="mb-4">
+          <h2 class="font-bold text-4xl/16 text-center lg:text-left">About Me</h2>
+          <p class="text-center lg:text-left">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis
+            semper nulla vitae tellus bibendum posuere. Morbi pulvinar vitae
+            diam ut pulvinar.
+          </p>
+        </div>
+        <div class="flex flex-wrap justify-center lg:justify-start gap-3">
+          <div class="bg-stone-700 text-white px-2 py-1 rounded-sm">
+            <p>HTML/CSS</p>
+          </div>
+          <div class="bg-stone-700 text-white px-2 py-1 rounded-sm">
+            <p>Tailwind CSS</p>
+          </div>
+          <div class="bg-stone-700 text-white px-2 py-1 rounded-sm">
+            <p>JavaScript</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="contact" class="py-8 bg-stone-200">
+      <h2 class="text-center font-bold text-4xl/16">Contact Me</h2>
+      <form class="grid gap-2 w-7/8 lg:w-1/2 m-auto">
+        <label for="name">Name</label>
+        <input type="text" name="name" id="name"
+          class="rounded-lg bg-white focus:border-emerald-400 focus:outline focus:outline-emerald-400 border"
+          required />
+        <label for="email">Email</label>
+        <input type="text" name="email" id="email"
+          class="rounded-lg bg-white focus:border-emerald-400 focus:outline focus:outline-emerald-400 border"
+          required />
+        <label for="note">Leave a Message:</label>
+        <textarea name="note" id="note" rows="8"
+          class="rounded-lg bg-white focus:border-emerald-400 focus:outline focus:outline-emerald-400 border"></textarea>
+        <button type="submit" class="bg-emerald-700 text-white rounded-lg py-2 my-4 cursor-pointer">Submit</button>
+      </form>
+    </section>
+  </main>
+  <footer class="bg-emerald-950 p-16">
+    <p class="text-white mb-2">© 2025 Jessica Salisbury</p>
+    <i class="fa-brands fa-github text-white text-2xl"></i>
+    <i class="fa-brands fa-linkedin text-white text-2xl"></i>
+  </footer>
+</body>
+
+</html>
