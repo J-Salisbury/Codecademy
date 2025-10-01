@@ -1,0 +1,45 @@
+h1, h2, table {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table, tr, td, th {
+    border: 1px solid green;
+}
+
+th, td {
+    text-align: left;
+    width: 33%;
+    padding: 10px;
+}
+
+.box {
+    text-align:center;
+    background-color: gray;
+    width: 25px;
+    height: 25px;
+    transition-duration: 1s;
+    transition-timing-function: ease;
+}
+
+.transition:hover .box {
+    margin-left: 80%;
+}
+
+.color:hover .box {
+    color: #FFF;
+}
+
+.background:hover .box {
+    background: orange;
+}
+
+.all:hover .box {
+    color: #FFF;
+    background: orange;
+    margin-left: 80%;
+}
